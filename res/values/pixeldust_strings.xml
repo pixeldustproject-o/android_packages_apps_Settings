@@ -120,5 +120,10 @@
     <string name="ambient_display_show_battery_icon_summary">Show battery indicator during pulse</string>
     <string name="ambient_display_show_battery_percent">Percent</string>
     <string name="ambient_display_show_battery_percent_summary">Show battery percent during pulse</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Reset stats</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>
 
