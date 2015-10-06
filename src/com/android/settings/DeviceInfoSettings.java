@@ -25,7 +25,6 @@ import android.provider.SearchIndexableResource;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.dashboard.SummaryLoader;
-import com.android.settings.deviceinfo.AdditionalSystemUpdatePreferenceController;
 import com.android.settings.deviceinfo.BasebandVersionPreferenceController;
 import com.android.settings.deviceinfo.PDVersionPreferenceController;
 import com.android.settings.deviceinfo.PDBuildDatePreferenceController;
@@ -51,8 +50,6 @@ import java.util.List;
 public class DeviceInfoSettings extends DashboardFragment implements Indexable {
 
     private static final String LOG_TAG = "DeviceInfoSettings";
-
-    private static final String KEY_LEGAL_CONTAINER = "legal_container";
 
     @Override
     public int getMetricsCategory() {
@@ -120,7 +117,6 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
-        controllers.add(new AdditionalSystemUpdatePreferenceController(context));
         controllers.add(new ManualPreferenceController(context));
         controllers.add(new KernelVersionPreferenceController(context));
         controllers.add(new BasebandVersionPreferenceController(context));
@@ -159,7 +155,6 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
-                    keys.add(KEY_LEGAL_CONTAINER);
                     return keys;
                 }
             };
