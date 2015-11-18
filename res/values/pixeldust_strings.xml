@@ -91,5 +91,8 @@
 
     <!-- In the security screen, the header title for settings related to device admins -->
     <string name="device_admin_title">Device administration</string>
+
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
 </resources>
 
