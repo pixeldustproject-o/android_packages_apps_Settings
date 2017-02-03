@@ -53,6 +53,7 @@ import com.android.settings.applications.PictureInPictureSettings;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
 import com.android.settings.applications.SpecialAccessSettings;
+import com.android.settings.applications.RunningServices;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.VrListenerSettings;
 import com.android.settings.applications.WriteSettingsDetails;
@@ -263,7 +264,8 @@ public class SettingsGateway {
             NavigationBarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+            RunningServices.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -306,6 +308,7 @@ public class SettingsGateway {
             Settings.NavigationBarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.DevRunningServicesActivity.class.getName()
     };
 }
