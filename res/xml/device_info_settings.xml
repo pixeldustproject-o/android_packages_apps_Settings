@@ -85,6 +85,18 @@
                 android:title="@string/fcc_equipment_id"
                 android:summary="@string/summary_placeholder"/>
 
+        <!-- PixelDust version -->
+        <Preference
+		android:key="pd_version"
+                android:title="@string/pd_version"
+                android:summary="@string/pd_version_default" />
+
+        <!-- PixelDust build date -->
+        <Preference
+		android:key="pd_build_date"
+                android:title="@string/pd_build_date"
+                android:summary="@string/pd_build_date_default" />
+
         <!-- Device Baseband version -->
         <Preference
                 android:key="baseband_version"
