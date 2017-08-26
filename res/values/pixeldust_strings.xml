@@ -19,6 +19,10 @@
     <string name="pd_version">Pixel Dust version</string>
     <string name="pd_version_default">Unknown</string>
 
+    <!-- Clang version -->
+    <string name="clang_version">Clang</string>
+    <string name="clang_version_default">Unknown</string>
+
     <!-- PixelDust build date-->
     <string name="pd_build_date">Pixel Dust build date</string>
     <string name="pd_build_date_default">2017-08-01-0000</string>
