@@ -3079,7 +3079,7 @@
         <activity android:name=".Settings$SystemDashboardActivity"
                   android:label="@string/header_category_system"
                   android:icon="@drawable/ic_settings_about">
-            <intent-filter android:priority="-1">
+            <intent-filter android:priority="-2">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -3095,7 +3095,7 @@
                   android:icon="@drawable/ic_help"
                   android:theme="@android:style/Theme.DeviceDefault.Light.Panel"
                   android:enabled="@bool/config_support_enabled">
-            <intent-filter android:priority="-2">
+            <intent-filter android:priority="-3">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <intent-filter>
@@ -3282,7 +3282,7 @@
         <activity android:name=".Settings$PixelDustSettingsActivity"
                   android:label="@string/pixeldust_settings_title"
                   android:icon="@drawable/ic_settings_pixeldust">
-            <intent-filter android:priority="12">
+            <intent-filter android:priority="-1">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
