@@ -40,5 +40,10 @@
     <!-- Main list strings -->
     <string name="pixeldust_settings_title">Pixel Dust Settings</string>
     <string name="pixeldust_settings_summary">ROM features &amp; personalization</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>
 

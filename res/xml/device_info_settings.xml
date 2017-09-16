@@ -17,6 +17,16 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+        <!-- Pixeldust Logo Header -->
+        <Preference android:key="pd_logo"
+            android:layout="@layout/pixeldust_logo" />
+
+        <!-- Changelog -->
+        <Preference android:key="pd_changelog"
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary"
+        android:fragment="com.android.settings.pixeldust.Changelog" />
+
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"
                 android:title="@string/device_status"
