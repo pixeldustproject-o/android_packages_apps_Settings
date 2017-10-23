@@ -31,5 +31,10 @@
 
     <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
+
+    <!-- check for enabled location in twilight mode -->
+    <string name="twilight_mode_location_dialog">Location disabled</string>
+    <string name="twilight_mode_location_disabled">Location access is disabled</string>
+    <string name="twilight_mode_location_enable">Enable</string>
 </resources>
 
