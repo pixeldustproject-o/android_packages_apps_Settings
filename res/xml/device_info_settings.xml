@@ -40,18 +40,6 @@
             <intent android:action="android.settings.SHOW_MANUAL" />
         </Preference>
 
-        <Preference
-                android:key="regulatory_info"
-                android:title="@string/regulatory_labels">
-            <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
-        </Preference>
-
-        <Preference
-                android:key="safety_info"
-                android:title="@string/safety_and_regulatory_info">
-                <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
-        </Preference>
-
         <!-- Device hardware model -->
         <Preference
                 android:key="device_model"
