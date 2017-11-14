@@ -133,6 +133,10 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.pixeldust.settings.PixelDustSettings;
+import com.pixeldust.settings.fragments.NavigationBarSettings;
+import com.pixeldust.settings.fragments.FlingSettings;
+import com.pixeldust.settings.fragments.PulseSettings;
+import com.pixeldust.settings.fragments.SmartbarSettings;
 
 public class SettingsGateway {
 
@@ -255,7 +259,11 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
-            PixelDustSettings.class.getName()
+            PixelDustSettings.class.getName(),
+            NavigationBarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -295,5 +303,9 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.PixelDustSettingsActivity.class.getName(),
+            Settings.NavigationBarSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }
