@@ -149,4 +149,7 @@
     <string name="alert_on_charged_level_80">"80%"</string>
     <string name="alert_on_charged_level_90">"90%"</string>
     <string name="alert_on_charged_level_99">"99%"</string>
+
+    <!-- In the security screen, the header title for settings related to device admins -->
+    <string name="device_admin_title">Device administration</string>
 </resources>
