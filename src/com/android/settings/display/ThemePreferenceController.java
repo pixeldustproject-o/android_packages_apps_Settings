@@ -28,6 +28,7 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.text.TextUtils;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -132,6 +133,8 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
                 disableTheme();
             } else {
                 mOverlayService.setEnabledExclusive((String) newValue, true, UserHandle.myUserId());
+            Toast.makeText(mContext, R.string.theme_confirmation,
+                Toast.LENGTH_LONG).show();
                 Intent goHome = new Intent(Intent.ACTION_MAIN);
                 goHome.addCategory(Intent.CATEGORY_HOME);
                 goHome.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
