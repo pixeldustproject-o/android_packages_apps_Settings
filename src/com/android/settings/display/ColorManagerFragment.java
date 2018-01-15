@@ -57,6 +57,7 @@ public class ColorManagerFragment extends DashboardFragment
     private static final String KEY_THEME_DARK = "theme_dark";
     private static final String KEY_THEME_BLACK = "theme_black";
     private static final String KEY_THEME_SHISHU = "theme_shishu";
+    private static final String KEY_THEME_SHISHUNIGHTS = "theme_shishunights";
 
     List<RadioButtonPreference> mThemes = new ArrayList<>();
 
@@ -121,6 +122,9 @@ public class ColorManagerFragment extends DashboardFragment
             case 4:
                 updateThemeItems(KEY_THEME_SHISHU);
                 break;
+            case 5:
+                updateThemeItems(KEY_THEME_SHISHUNIGHTS);
+                break;
         }
     }
 
@@ -163,6 +167,10 @@ public class ColorManagerFragment extends DashboardFragment
             case KEY_THEME_SHISHU:
                 Settings.Secure.putInt(getContentResolver(), 
                          Settings.Secure.DEVICE_THEME, 4);
+                break;
+            case KEY_THEME_SHISHUNIGHTS:
+                Settings.Secure.putInt(getContentResolver(), 
+                         Settings.Secure.DEVICE_THEME, 5);
                 break;
         }
         updateThemeItems(pref.getKey());
