@@ -231,6 +231,8 @@
     <string name="theme_dark_title_summary">Themes the system to dark grey</string>
     <string name="theme_black_title">Black</string>
     <string name="theme_black_title_summary">Themes the system to black</string>
+    <string name="theme_shishu_title">Shishu Dreams</string>
+    <string name="theme_shishu_title_summary">Themes the system to Shishu Dreams</string>
     <!-- Color Manager: Device accent -->
     <string name="device_accent_title">Device accent</string>
 
