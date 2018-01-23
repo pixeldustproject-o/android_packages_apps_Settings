@@ -3317,6 +3317,18 @@
         <!-- Hide Apps from Recents (HAFR) -->
         <activity android:name="com.pixeldust.settings.hideappfromrecents.HAFRAppListActivity" />
 
+        <!-- Color settings activity. -->
+        <activity android:name="Settings$ColorSettingsActivity"
+                android:label="@string/color_manager_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.display.ColorManagerFragment" />
+        </activity>
+
         <!-- Global navbar settings -->
         <activity android:name="Settings$NavigationBarSettingsActivity"
                 android:label="@string/bottom_nav_navigation_title"

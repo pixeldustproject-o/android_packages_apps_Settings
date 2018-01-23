@@ -233,4 +233,7 @@
     <string name="theme_black_title_summary">Themes the system to black</string>
     <!-- Color Manager: Device accent -->
     <string name="device_accent_title">Device accent</string>
+
+    <string name="theme_applied_toast">Theme applied.</string>
+    <string name="applying_theme_toast">Applying theme, please wait...</string>
 </resources>

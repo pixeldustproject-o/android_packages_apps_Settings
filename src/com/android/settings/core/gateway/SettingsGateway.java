@@ -138,6 +138,7 @@ import com.pixeldust.settings.fragments.NavigationBarSettings;
 import com.pixeldust.settings.fragments.FlingSettings;
 import com.pixeldust.settings.fragments.PulseSettings;
 import com.pixeldust.settings.fragments.SmartbarSettings;
+import com.android.settings.display.ColorManagerFragment;
 
 public class SettingsGateway {
 
@@ -265,7 +266,8 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            ColorManagerFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
