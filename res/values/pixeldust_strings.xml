@@ -157,6 +157,7 @@
     <string name="profile_choose_app">Choose app</string>
 
     <!-- Notification light dialogs -->
+    <string name="notification_settings_channel_name">LightsSettings</string>
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
     <string name="default_time">Normal</string>
