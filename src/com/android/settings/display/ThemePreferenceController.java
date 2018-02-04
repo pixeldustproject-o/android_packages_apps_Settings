@@ -22,6 +22,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
@@ -135,6 +136,7 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         } catch (RemoteException e) {
             return false;
         }
+        Settings.System.putString(mContext.getContentResolver(), Settings.System.SYSTEM_THEME_CURRENT_OVERLAY, (String) newValue);
         return true;
     }
 
