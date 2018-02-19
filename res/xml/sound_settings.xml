@@ -65,6 +65,13 @@
                 android:title="@string/volume_steps_title"
                 android:fragment="com.android.settings.pixeldust.VolumeSteps" />
 
+        <!-- In-call notifications vibrate -->
+        <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
+                android:key="incall_notifications_vibrate"
+                android:title="@string/incall_notifications_vibrate"
+                android:summary="@string/incall_notifications_vibrate_summary"
+                android:defaultValue="false" />
+
         <!-- Interruptions -->
         <com.android.settingslib.RestrictedPreference
                 android:key="zen_mode"
