@@ -215,10 +215,6 @@
     <string name="select_default_usb_configuration_dialog_title">Select USB Configuration</string>
     <string name="default_usb_configuration" translatable="false" >default</string>
 
-    <!-- Less annoying in call notifications -->
-    <string name="incall_notifications_vibrate">Vibrate in-call notifications</string>
-    <string name="incall_notifications_vibrate_summary">Vibrate instead of playing a sound for in-call notifications</string>
-
     <!-- Color Manager -->
     <string name="color_manager_title">Color manager</string>
     <string name="color_manager_summary">Change system colors with various theme modes</string>
