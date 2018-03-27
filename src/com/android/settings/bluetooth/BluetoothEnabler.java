@@ -191,7 +191,7 @@ public final class BluetoothEnabler implements SwitchWidgetController.OnSwitchCh
             return false;
         }
 
-        if (mLocalAdapter != null) {
+        if ((mLocalAdapter != null) && (mSwitch != null)) {
             // disable switch, enable it again after BT state is changed
             mSwitch.setEnabled(false);
         }
