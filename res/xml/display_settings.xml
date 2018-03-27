@@ -119,10 +119,11 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <!-- Hide device_theme for now
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
-        android:summary="@string/summary_placeholder" />
+        android:summary="@string/summary_placeholder" /> -->
 
     <Preference
         android:key="vr_display_pref"
