@@ -25,7 +25,6 @@ public class ImsManager {
 
     public static boolean wfcEnabledByPlatform;
     public static boolean wfcProvisioned;
-    public static boolean wfcSettingEnabled;
 
     public static boolean isWfcEnabledByPlatform(Context context) {
         return wfcEnabledByPlatform;
@@ -40,10 +39,6 @@ public class ImsManager {
     }
 
     public static boolean isWfcEnabledByUser(Context context) {
-        return wfcSettingEnabled;
+        return false;
     }
-
-     public static void setWfcSetting(Context context, boolean enabled) {
-         wfcSettingEnabled = enabled;
-     }
 }
