@@ -21,4 +21,7 @@
     <!-- Default value for battery light pulse -->
     <bool name="def_battery_light_pulse">true</bool>
 
+    <!-- Whether to disable eab provision -->
+    <bool name="config_is_eab_provisioned">true</bool>
+
 </resources>
