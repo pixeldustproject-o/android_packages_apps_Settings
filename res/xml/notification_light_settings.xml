@@ -25,7 +25,8 @@
 
         <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_light_pulse"
-            android:title="@string/notification_light_title" />
+            android:title="@string/notification_light_title"
+            android:defaultValue="false" />
 
         <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_light_color_auto"
