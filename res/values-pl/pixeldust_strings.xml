@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The PixelDust Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Main list strings -->
+    <string name="pixeldust_settings_summary">Dodatkowe ustawienia</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Bez potrzeby, ustawienia programistyczne są domyślnie włączone.</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Informacje o telefonie</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Lista zmian</string>
+    <string name="changelog_summary">Od ostatniej aktualizacji</string>
+    <string name="changelog_error">Nie można załadować listy zmian</string>
+
+    <string name="dashboard_conditions_title">Warunki w panelu ustawień</string>
+    <string name="summary_dashboard_conditions_enabled">Warunki panelu ustawień są włączone</string>
+    <string name="summary_dashboard_conditions_disabled">Warunki panelu ustawień są wyłączone</string>
+
+    <string name="dashboard_suggestions_title">Sugestie ustawień</string>
+    <string name="summary_dashboard_suggestions_enabled">Sugestie w panelu ustawień są włączone</string>
+    <string name="summary_dashboard_suggestions_disabled">Sugestie w panelu ustawień są wyłączone</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomieszany układ PIN podczas odblokowywania urządzenia</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie po wprowadzeniu prawidłowego kodu PIN / hasła</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Kolor diody powiadomień</string>
+    <string name="custom_light_title">Kolor światła</string>
+    <string name="custom_light_on_time_title">Czas WŁ światła podczas impulsu diody (ms)</string>
+    <string name="custom_light_off_time_title">Czas WYŁ światła podczas impulsu diody (ms)"</string>
+    <string name="app_notifications_info_desc">Stuknij w jeden z powyższych kanałów, aby skonfigurować ich kolor diody i inne opcje</string>
+    <string name="value_equals_default">domyślne</string>
+    <string name="show_light_on_zen_title">Mrugaj podczas trybu "Nie przeszkadzać"</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Wersja Vendor</string>
+    <string name="vendor_version_default">Nieznana</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Wibracja ładowania</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Poziomy głośności</string>
+    <string name="volume_steps_alarm_title">Alarm</string>
+    <string name="volume_steps_dtmf_title">Wybieranie tonowe</string>
+    <string name="volume_steps_music_title">Multimedia</string>
+    <string name="volume_steps_notification_title">Powiadomienia</string>
+    <string name="volume_steps_ring_title">Dzwonek</string>
+    <string name="volume_steps_system_title">System</string>
+    <string name="volume_steps_voice_call_title">Połączenie głosowe</string>
+    <string name="volume_steps_bluetooth_sco_title">Połączenie bluetooth</string>
+    <string name="volume_steps_reset">Resetuj</string>
+
+    <string name="link_volume_option_title">Połącz dźwięk połączeń i powiadomień</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Zwiększenie głośności dzwonka</string>
+    <string name="increasing_ring_min_volume_title">Początkowa głośność</string>
+    <string name="increasing_ring_ramp_up_time_title">Czas zwiększenia głośności</string>
+    
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Obracanie ekranu</string>
+    <string name="display_rotation_disabled">Nieaktywne</string>
+    <string name="display_rotation_unit">stopni</string>
+    <string name="display_rotation_category_title">Tryby obracania</string>
+    <string name="display_rotation_0_title">0 stopni</string>
+    <string name="display_rotation_90_title">90 stopni</string>
+    <string name="display_rotation_180_title">180 stopni</string>
+    <string name="display_rotation_270_title">270 stopni</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Zresetuj statystyki</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Statystyki historii baterii zostaną zresetowane</string>
+
+    <string name="battery_image">Ikona baterii</string>
+    <string name="battery_image_description">Pokaż ikonę baterii na pasku stanu</string>
+
+    <!-- Color Manager -->
+    <string name="color_manager_title">Menedżer kolorów</string>
+    <string name="color_manager_summary">Zmień kolor systemu za pomocą wbudowanych motywów</string>
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">Automatycznie</string>
+    <string name="theme_auto_title_summary">Motyw systemu zależny od kolorów tapety</string>
+    <string name="theme_light_title">Jasny</string>
+    <string name="theme_light_title_summary">Biały motyw systemu</string>
+    <string name="theme_dark_title">Ciemny</string>
+    <string name="theme_dark_title_summary">Ciemnoszary motyw systemu</string>
+    <string name="theme_black_title">Czarny</string>
+    <string name="theme_black_title_summary">Czarny motyw systemu</string>
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">Akcent urządzenia</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> jest <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">Włączona</string>
+    <string name="sim_disabled">Wyłączona</string>
+    <string name="sim_missing">Brak lub uszkodzona</string>
+    <string name="sim_enabler_need_disable_sim">Karta SIM zostanie wyłączona. Czy chcesz kontynuować?</string>
+    <string name="sim_enabler_will_disable_sim_title">Uwaga</string>
+    <string name="sim_enabler_need_switch_data_service">Ta karta SIM zostanie wyłączona, a karta SIM <xliff:g id="slotid">%1$s</xliff:g> będzie używana do transmisji danych. Czy jesteż pewny, że chcesz kontynuować?</string>
+    <string name="sim_enabler_airplane_on">Nie można wykonać tej operacji, gdy włączony jest tryb samolotowy.</string>
+    <string name="sim_enabler_in_call">Nie można wykonać tej operacji w czasie rozmowy.</string>
+    <string name="sim_enabler_both_inactive">Nie można wyłączyć wszystkich kart SIM</string>
+    <string name="sim_enabler_enabling">Aktywacja\u2026</string>
+    <string name="sim_enabler_disabling">Dezaktywacja\u2026</string>
+    <string name="sub_activate_success">Karta SIM aktywowana.</string>
+    <string name="sub_activate_failed">Aktywacja nie powiodła się.</string>
+    <string name="sub_deactivate_success">Karta SIM dezaktywowana.</string>
+    <string name="sub_deactivate_failed">Dezaktywacja nie powiodła się.</string>
+
+    <string name="force_ambient_for_media_pref_title">Nazwa utworu na ekranie Ambient</string>
+    <string name="force_ambient_for_media_off">Wyłączona</string>
+    <string name="force_ambient_for_media_on">Włączona</string>
+    <string name="force_ambient_for_media_on_forced">Włączona i wymuszona</string>
+    <string name="force_ambient_for_media_on_forced_clean">Włączona i wymuszona, minimalnie</string>
+    <string name="ambient_ticker_footer">Informacje o odtwarzanym utworze na ekranie Ambient</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Znajdź czujnik odcisków palców z <xliff:g id="sensor_location">%1$s</xliff:g> telefonu.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">tyłu</string>
+    <string name="security_settings_fingerprint_sensor_location_front">przodu</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lewej strony</string>
+    <string name="security_settings_fingerprint_sensor_location_right">prawej strony</string>
+	
+    <string name="theme_applied_toast">Motyw zastosowany.</string>
+    <string name="applying_theme_toast">Stosowanie motywu, proszę czekać...</string>
+    
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Rozszerzony pulpit</string>
+    <string name="expanded_hide_nothing">Nic nie ukrywaj</string>
+    <string name="expanded_hide_status">Ukryj pasek stanu</string>
+    <string name="expanded_hide_navigation">Ukryj pasek nawigacji</string>
+    <string name="expanded_hide_both">Ukryj oba</string>
+    <string name="expanded_nothing_to_show">Aby dodać niestandardową konfigurację trybu rozszerzonego dla wybranej aplikacji, ustaw "Włączone dla wszystkich" na pozycji wyłącz</string>
+    <string name="expanded_desktop_state">Tryb rozszerzony</string>
+    <string name="expanded_enabled_for_all">Włączone dla wszystkich</string>
+    <string name="expanded_user_configurable">Konfigurowalne przez użytkownika</string>
+    <string name="expanded_desktop_style">Styl rozszerzonego pulpitu</string>
+    <string name="expanded_desktop_style_description">Wybierz domyślny styl rozszerzonego pulpitu</string>
+    <string name="expanded_desktop_title">Opcje rozszerzonego pulpitu</string>
+</resources>

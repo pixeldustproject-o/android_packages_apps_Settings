@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The PixelDust Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Main list strings -->
+    <string name="pixeldust_settings_summary">Дополнительные настройки</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Настройки для разработчика активированы по умолчанию.</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Информация о телефоне</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">С момента последнего обновления</string>
+    <string name="changelog_error">Не удается загрузить список изменений</string>
+
+    <string name="dashboard_conditions_title">Уведомления в главном меню</string>
+    <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
+    <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
+
+    <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
+    <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Индикатор уведомлений</string>
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
+    <string name="app_notifications_info_desc">Нажмите на название канала для редактирования индикации</string>
+    <string name="value_equals_default">умолч.</string>
+    <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Версия Vendor</string>
+    <string name="vendor_version_default">Неизвестно</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук при снятии скриншота</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Уровни громкости</string>
+    <string name="volume_steps_alarm_title">Уровень громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Уровень громкости: Набор номера</string>
+    <string name="volume_steps_music_title">Уровень громкости: Музыка</string>
+    <string name="volume_steps_notification_title">Уровень громкости: Уведомления</string>
+    <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
+    <string name="volume_steps_system_title">Уровень громкости: Система</string>
+    <string name="volume_steps_bluetooth_sco_title">Уровень громкости: Bluetooth звонок</string>
+    <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+    <string name="volume_steps_reset">Сброс</string>
+
+    <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Сброс статистики</string>
+    <string name="reset_stats_msg">История использования батареи будет удалена</string>
+
+    <!-- Color Manager -->
+    <string name="color_manager_title">Управление цветом</string>
+    <string name="color_manager_summary">Изменение цвета системы и выбор тем</string>
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">Авто</string>
+    <string name="theme_auto_title_summary">Выбор темы по установленным обоям</string>
+    <string name="theme_light_title">Светлая</string>
+    <string name="theme_light_title_summary">Белая тема системы</string>
+    <string name="theme_dark_title">Темная</string>
+    <string name="theme_dark_title_summary">Темная тема системы</string>
+    <string name="theme_black_title">Черная</string>
+    <string name="theme_black_title_summary">Черная темы системы</string>
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">Основной цвет</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">включена</string>
+    <string name="sim_disabled">отключена</string>
+    <string name="sim_missing">отсутствует или содержит ошибку</string>
+    <string name="sim_enabler_need_enable_sim">Действительно активировать SIM-карту?</string>
+    <string name="sim_enabler_need_disable_sim">Действительно деактивировать SIM-карту?</string>
+    <string name="sim_enabler_will_disable_sim_title">Внимание!</string>
+    <string name="sim_enabler_airplane_on">ОШИБКА. Включен режим полета!</string>
+    <string name="sim_enabler_in_call">ОШИБКА. Осуществляется вызов!</string>
+    <string name="sim_enabler_both_inactive">Ошибка, отключение всех SIM-карт невозможно</string>
+    <string name="sim_enabler_enabling">Активация...</string>
+    <string name="sim_enabler_disabling">Деактивация...</string>
+    <string name="sub_activate_success">Активация выполнена.</string>
+    <string name="sub_activate_failed">Ошибка при активации.</string>
+    <string name="sub_deactivate_success">Деактивация выполнена.</string>
+    <string name="sub_deactivate_failed">Ошибка при деактивации.</string>
+
+    <string name="force_ambient_for_media_pref_title">Информация о треке</string>
+    <string name="force_ambient_for_media_off">Отключено</string>
+    <string name="force_ambient_for_media_on">Включено</string>
+    <string name="force_ambient_for_media_on_forced">Принудительно включено</string>
+    <string name="force_ambient_for_media_on_forced_clean">Принудительно включено в миним. виде</string>
+    <string name="ambient_ticker_footer">Информация о треке отображается на экране блокировки с включенным или выключенным Автомат. включением экрана.\nВы можете выбрать нормальный или минимальный вид. Хотя эта функция использует Автом. включение экрана, она не зависит от его состояния.</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">задней панели</string>
+    <string name="security_settings_fingerprint_sensor_location_front">передней панели</string>
+    <string name="security_settings_fingerprint_sensor_location_left">левой грани</string>
+    <string name="security_settings_fingerprint_sensor_location_right">правой грани</string>
+
+    <string name="theme_applied_toast">Тема применена</string>
+    <string name="applying_theme_toast">Применение темы, подождите...</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Расширенный экран</string>
+    <string name="expanded_hide_nothing">Ничего не скрывать</string>
+    <string name="expanded_hide_status">Скрыть строку состояния</string>
+    <string name="expanded_hide_navigation">Скрыть панель навигации</string>
+    <string name="expanded_hide_both">Скрыть оба</string>
+    <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений, переведите переключатель «Включено для всех» в отключенное состояние.</string>
+    <string name="expanded_enabled_for_all">Включено для всех</string>
+    <string name="expanded_desktop_style">Стиль расширенного экрана</string>
+    <string name="expanded_desktop_style_description">Выбрать режим расширенного экрана по умолчанию</string>
+    <string name="expanded_desktop_title">Настройки расширенного экрана</string>
+    <string name="expanded_user_configurable">Настраивается пользователем</string>
+    <string name="expanded_desktop_state">Расширенное состояние</string>
+</resources>

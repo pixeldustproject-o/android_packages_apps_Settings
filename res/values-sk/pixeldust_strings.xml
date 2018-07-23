@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The PixelDust Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Main list strings -->
+    <string name="pixeldust_settings_summary">Rozšírené nastavenia</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Nastavenia pre vývojárov sú predvolene povolené.</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Informácie o telefóne</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Zoznam zmien</string>
+    <string name="changelog_summary">Od poslednej aktualizácie</string>
+    <string name="changelog_error">Nemožno načítať zoznam zmien</string>
+
+    <string name="dashboard_conditions_title">Upozornenia v hlavnom menu</string>
+    <string name="summary_dashboard_conditions_enabled">Upozornenia v hlavnom menu sú povolené</string>
+    <string name="summary_dashboard_conditions_disabled">Upozornenia v hlavnom menu sú zakázané</string>
+
+    <string name="dashboard_suggestions_title">Návrhy v hlavnom menu</string>
+    <string name="summary_dashboard_suggestions_enabled">Návrhy sú zahrnuté v hlavnom menu</string>
+    <string name="summary_dashboard_suggestions_disabled">Návrhy nie sú zahrnuté v hlavnom menu</string>
+ 
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Náhodné rozloženie tlačidiel</string>
+    <string name="unlock_scramble_pin_layout_summary">Zobraziť tlačidlá pre zadanie PIN v náhodnom poradí</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Rýchle odomknutie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokujte zariadenie bez nutnosti stlačenia OK.</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">LED indikácia upozornení</string>
+    <string name="custom_light_title">Farba LED</string>
+    <string name="custom_light_on_time_title">Čas kedy LED svieti (ms)</string>
+    <string name="custom_light_off_time_title">Čas kedy LED nesvieti (ms)</string>
+    <string name="app_notifications_info_desc">Kliknite na názov kanálu pre úpravu nastavení</string>
+    <string name="value_equals_default">auto</string>
+    <string name="show_light_on_zen_title">Zapnúť LED v režime "Nerušiť"</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Verzia Vendor</string>
+    <string name="vendor_version_default">Neznáma</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrovanie nabíjania</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvuk pri snímke obrazovky</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Kroky hlasitosti</string>
+    <string name="volume_steps_alarm_title">Kroky hlasitosti: Budík</string>
+    <string name="volume_steps_dtmf_title">Kroky hlasitosti: Voľba čísla</string>
+    <string name="volume_steps_music_title">Kroky hlasitosti: Hudba</string>
+    <string name="volume_steps_notification_title">Kroky hlasitosti: Upozornenia</string>
+    <string name="volume_steps_ring_title">Kroky hlasitosti: Zvonenie</string>
+    <string name="volume_steps_system_title">Kroky hlasitosti: Systém</string>
+    <string name="volume_steps_bluetooth_sco_title">Kroky hlasitosti: Bluetooth zvonenie</string>
+    <string name="volume_steps_voice_call_title">Kroky hlasitosti: Hlasový hovor</string>
+    <string name="volume_steps_reset">Reset</string>
+
+    <string name="link_volume_option_title">Spojiť hlasitosť zvonenia a upozornení</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Zvyšujúca sa hlasitosť zvonenia</string>
+    <string name="increasing_ring_min_volume_title">Počiatočná hlasitosť</string>
+    <string name="increasing_ring_ramp_up_time_title">Dĺžka zvyšovania</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Otáčanie obrazovky</string>
+    <string name="display_rotation_disabled">Vypnuté</string>
+    <string name="display_rotation_unit">stupňov</string>
+    <string name="display_rotation_category_title">Režimy otáčania</string>
+    <string name="display_rotation_0_title">0 stupňov</string>
+    <string name="display_rotation_90_title">90 stupňov</string>
+    <string name="display_rotation_180_title">180 stupňov</string>
+    <string name="display_rotation_270_title">270 stupňov</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Resetovať štatistiky</string>
+    <string name="reset_stats_msg">História batérie sa vymaže</string>
+
+    <!-- Color Manager -->
+    <string name="color_manager_title">Správa farieb</string>
+    <string name="color_manager_summary">Zmeniť farbu systému a vybrať tému</string>
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">Auto</string>
+    <string name="theme_auto_title_summary">Téma podľa nastavenej tapety</string>
+    <string name="theme_light_title">Svetlá</string>
+    <string name="theme_light_title_summary">Svetlá systémová téma</string>
+    <string name="theme_dark_title">Tmavá</string>
+    <string name="theme_dark_title_summary">Tmavá systémová téma</string>
+    <string name="theme_black_title">Čierna</string>
+    <string name="theme_black_title_summary">Čierna systémová téma</string>
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">Hlavná systémová farba</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">zapnutá</string>
+    <string name="sim_disabled">vypnutá</string>
+    <string name="sim_missing">chýbajúca alebo vadná</string>
+    <string name="sim_enabler_need_enable_sim">Naozaj aktivovať SIM kartu?</string>
+    <string name="sim_enabler_need_disable_sim">Naozaj deaktivovať SIM kartu?</string>
+    <string name="sim_enabler_will_disable_sim_title">Pozor!</string>
+    <string name="sim_enabler_airplane_on">CHYBA. Je aktivovaný režim lietadlo!</string>
+    <string name="sim_enabler_in_call">CHYBA. Prebieha hovor!</string>
+    <string name="sim_enabler_both_inactive">Chyba, nemôžete vypnúť všetky karty SIM</string>
+    <string name="sim_enabler_enabling">Aktivácia...</string>
+    <string name="sim_enabler_disabling">Deaktivácia...</string>
+    <string name="sub_activate_success">Aktivácia dokončená.</string>
+    <string name="sub_activate_failed">Chyba pri aktivácii.</string>
+    <string name="sub_deactivate_success">Deaktivácia dokončená.</string>
+    <string name="sub_deactivate_failed">Chyba pri deaktivácii.</string>
+
+    <string name="force_ambient_for_media_pref_title">Informácie o skladbe</string>
+    <string name="force_ambient_for_media_off">Vypnuté</string>
+    <string name="force_ambient_for_media_on">Zapnuté</string>
+    <string name="force_ambient_for_media_on_forced">Vynútene zapnuté</string>
+    <string name="force_ambient_for_media_on_forced_clean">Vynútene zapnuté v min. režime</string>
+    <string name="ambient_ticker_footer">Informácie o skladbe sa zobrazujú na obrazovke uzamknutia s alebo bez zapnutej funkcie Ambientneho zobrazenia.\nVyberte normálny alebo minimálny režim. Hoci táto funkcia používa Ambientne zobrazenie, nezávisí na ňom.</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Čítačka odtlačkov prstov je umiestnená: <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">vzadu</string>
+    <string name="security_settings_fingerprint_sensor_location_front">vpredu</string>
+    <string name="security_settings_fingerprint_sensor_location_left">ľavá hrana</string>
+    <string name="security_settings_fingerprint_sensor_location_right">pravá hrana</string>
+
+    <string name="theme_applied_toast">Téma bola aplikovaná</string>
+    <string name="applying_theme_toast">Aplikovanie témy, prosím čkajate...</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Rozšírená plocha</string>
+    <string name="expanded_hide_nothing">Nič neskrývať</string>
+    <string name="expanded_hide_status">Skryť stavový riadok</string>
+    <string name="expanded_hide_navigation">Skryť navigačný panel</string>
+    <string name="expanded_hide_both">Skryť oboje</string>
+    <string name="expanded_nothing_to_show">Ak chcete nakonfigurovať pokročilé nastavenia obrazovky pre jednotlivé aplikácie, nastavte prepínač "Povolené pre všetky" na stav Zakázaný.</string>
+    <string name="expanded_enabled_for_all">Povolené pre všetky</string>
+    <string name="expanded_desktop_style">Štýl rozšírenej obrazovky</string>
+    <string name="expanded_desktop_style_description">Vybrať predvolený štýl rozšírenej obrazovky</string>
+    <string name="expanded_desktop_title">Nastavenia rozšírenej obrazovky</string>
+    <string name="expanded_user_configurable">Užívateľsky konfigurovateľné</string>
+    <string name="expanded_desktop_state">Rozšírený stav</string>
+</resources>
