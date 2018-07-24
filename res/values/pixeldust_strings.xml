@@ -135,7 +135,7 @@
     <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
 
     <!-- Notification light dialogs -->
-    <string name="notification_light_settings_footer">To set per-app light colors you must first enable \'use cutom values\' then push the \'\u002b\' button in the actionbar above. To remove app from the list press and hold on it.</string>
+    <string name="notification_light_settings_footer">To set per-app light colors you must first enable \'use custom values\' then push the \'\u002b\' button in the actionbar above. To remove app from the list press and hold on it.</string>
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
     <string name="default_time">Normal</string>
