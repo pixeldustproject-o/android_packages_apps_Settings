@@ -56,6 +56,12 @@
             android:dependency="ambient_display_show_battery"
             android:defaultValue="true"/>
 
+        <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
+            android:key="ambient_display_weather"
+            android:title="@string/ambient_display_weather_title"
+            android:summary="@string/ambient_display_weather_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory>
