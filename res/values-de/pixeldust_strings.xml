@@ -254,9 +254,12 @@
   <!-- Doze battery options -->
   <string name="ambient_display_show_battery_cat">Akku-Ladestand</string>
   <string name="ambient_display_show_battery_icon">Aktivieren</string>
-  <string name="ambient_display_show_battery_icon_summary">Akku-Anzeige auf Ambient Display anzeigen</string>
+  <string name="ambient_display_show_battery_icon_summary">Akku-Anzeige auf Inaktivitätsdisplay anzeigen</string>
   <string name="ambient_display_show_battery_percent">Prozent-Anzeige</string>
-  <string name="ambient_display_show_battery_percent_summary">Akku-Ladestand auf Ambient Display anzeigen</string>
+  <string name="ambient_display_show_battery_percent_summary">Akku-Ladestand auf Inaktivitätsdisplay anzeigen</string>
+  <!-- Ambient display weather -->
+  <string name="ambient_display_weather_title">Wetter-Anzeige</string>
+  <string name="ambient_display_weather_summary">Minimale Wetterinformationen auf Inaktivitätsdisplay anzeigen</string>
 
   <!-- In the security screen, the header title for settings related to device admins -->
   <string name="device_admin_title">Geräteverwaltung</string>
