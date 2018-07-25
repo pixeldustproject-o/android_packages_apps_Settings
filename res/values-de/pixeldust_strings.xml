@@ -119,10 +119,10 @@
   <string name="force_ambient_for_media_pref_summary">Konfigurieren des Ambient-Musikticker</string>
   <string name="force_ambient_for_media_title">Layout auswählen</string>
   <string name="force_ambient_for_media_off">Ausgeschaltet</string>
-  <string name="force_ambient_for_media_on">Normal</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimal (erzwungen)</string>
-  <string name="ambient_ticker_footer">Mit dieser Funktion können Sie die aktuellen Musiktitelinformationen auf dem Sperrbildschirm mit oder ohne aktiviertem Inaktivitätsdisplay anzeigen.\n\nSie kann auch ausgelöst werden, ohne dass das Inaktivitätsdisplay aktiviert ist, indem Sie die (erzwungene) Option verwenden.\n\nDie normale Ansicht enthält das Uhr-Widget, das Datum und den Ticker.\n\nDie Minimale Ansicht enthält nur den Ticker mittig auf dem Bildschirms.\n\nSie können auf Titelinformationen doppeltippen, um den Titel zu überspringen.</string>
-
+  <string name="force_ambient_for_media_on">Eingeschaltet</string>
+  <string name="force_ambient_for_media_on_forced">Aktiviert (immer dargestellt)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Aktiviert (dargestellt falls möglich)</string>
+  <string name="ambient_ticker_footer">Der Ambient Music Ticker erlaubt die Anzeige des Musiktitels bei ein- oder ausgeschaltetem Inaktivitätsdisplay.\nEs gibt zwei Layouts - normal und minimal. Das Feature nutzt das Inaktivitätsdisplay, ist aber nicht davon abhängig.</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Geräts.</string>
   <!-- Fingerprint sensor locations -->
