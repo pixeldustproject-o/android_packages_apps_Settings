@@ -63,12 +63,18 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
         super.displayPreference(screen);
         mSystemUiThemeStyle = (ListPreference) screen.findPreference(SYSTEM_UI_THEME);
         if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
-            int systemuiThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.SYSTEM_UI_THEME, 0);
-            int valueIndex = mSystemUiThemeStyle.findIndexOfValue(String.valueOf(systemuiThemeStyle));
-            mSystemUiThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
-            mSystemUiThemeStyle.setSummary(mSystemUiThemeStyle.getEntry());
-            mSystemUiThemeStyle.setOnPreferenceChangeListener(this);
+            if (mContext.getResources().getBoolean(
+                    com.android.internal.R.bool.config_supportSystemUIThemes)) {
+                mSystemUiThemeStyle.setEnabled(false);
+                mSystemUiThemeStyle.setSummary(R.string.system_themes_unsupported_title);
+            } else {
+                int systemuiThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
+                        Settings.System.SYSTEM_UI_THEME, 0);
+                int valueIndex = mSystemUiThemeStyle.findIndexOfValue(String.valueOf(systemuiThemeStyle));
+                mSystemUiThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+                mSystemUiThemeStyle.setSummary(mSystemUiThemeStyle.getEntry());
+                mSystemUiThemeStyle.setOnPreferenceChangeListener(this);
+            }
         } else {
             mSystemUiThemeStyle.setEnabled(false);
             mSystemUiThemeStyle.setSummary(R.string.substratum_installed_title);
