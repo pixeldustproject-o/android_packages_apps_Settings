@@ -21,6 +21,15 @@
         <Preference android:key="pd_logo"
             android:layout="@layout/pixeldust_logo" />
 
+         <!-- OTA -->
+         <Preference android:key="pd_updates"
+             android:title="@string/pdupdate_settings_title"
+             android:summary="@string/pdupdate_settings_summary">
+             <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="com.pixeldust.ota"
+                 android:targetClass="com.pixeldust.ota.activities.MainActivity" />
+         </Preference>
+
         <!-- Changelog -->
         <Preference android:key="pd_changelog"
         android:title="@string/changelog_title"
