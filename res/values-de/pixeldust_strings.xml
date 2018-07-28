@@ -169,6 +169,7 @@
   <string name="systemui_theme_style_shishunights">Shishu Nights</string>
   <string name="applying_theme_toast">Das System Design wird aktualisiert, bitte warten...</string>
   <string name="theme_applied_toast">Design angewendet.</string>
+  <string name="system_themes_unsupported_title">System Designs sind nicht verfügbar für Ihr Gerät.</string>
   <string name="substratum_installed_title">System Designs sind nicht verfügbar weil Substratum installiert wurde. Falls Sie die System Designs von dieser ROM stattdessen verwenden möchten, müssen Sie Substratum zunächst deinstallieren.</string>
   <string name="disable_fonts_installed_title">Die Schriftartenauswahl ist nicht verfügbar weil Substratum installiert wurde. Falls Sie die System Schriftarten von dieser ROM stattdessen verwenden möchten, müssen Sie Substratum zunächst deinstallieren.</string>
   <string name="accent_picker_dialog_title">Akzentfarbe auswählen</string>

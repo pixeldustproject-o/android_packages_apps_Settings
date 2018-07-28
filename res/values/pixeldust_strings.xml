@@ -235,6 +235,7 @@
     <string name="systemui_theme_style_shishunights">Shishu Nights</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
+    <string name="system_themes_unsupported_title">System themes are unavailable for your device.</string>
     <string name="substratum_installed_title">System themes are unavailable because Substratum is installed. Uninstall it if you wish to use these themes instead.</string>
     <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
     <string name="accent_picker_dialog_title">Select an accent color</string>
