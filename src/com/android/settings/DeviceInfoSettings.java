@@ -29,6 +29,7 @@ import com.android.settings.deviceinfo.BasebandVersionPreferenceController;
 import com.android.settings.deviceinfo.PDVersionPreferenceController;
 import com.android.settings.deviceinfo.PDBuildDatePreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
+import com.android.settings.deviceinfo.OTAPreferenceController;
 import com.android.settings.deviceinfo.ClangVersionPreferenceController;
 import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
@@ -130,6 +131,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new SafetyInfoPreferenceController(context));
         controllers.add(new PDVersionPreferenceController(context));
         controllers.add(new PDBuildDatePreferenceController(context));
+        controllers.add(new OTAPreferenceController(context));
         controllers.add(new ClangVersionPreferenceController(context));
         return controllers;
     }
