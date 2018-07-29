@@ -102,7 +102,7 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
     public void updateSummary() {
         if (mAccentPickerPref != null) {
             if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
-                if (mContext.getResources().getBoolean(
+                if (!mContext.getResources().getBoolean(
                     com.android.internal.R.bool.config_supportSystemUIThemes)) {
                     mAccentPickerPref.setSummary(mContext.getString(
                             com.android.settings.R.string.system_themes_unsupported_title));
