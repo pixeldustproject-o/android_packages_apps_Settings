@@ -53,7 +53,7 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
     public void displayPreference(PreferenceScreen screen) {
         mAccentPickerPref  = (Preference) screen.findPreference(KEY_ACCENT_PICKER_FRAGMENT_PREF);
         if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
-                if (mContext.getResources().getBoolean(
+                if (!mContext.getResources().getBoolean(
                     com.android.internal.R.bool.config_supportSystemUIThemes)) {
                     mAccentPickerPref.setEnabled(false);
                 } else {
@@ -102,7 +102,7 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
     public void updateSummary() {
         if (mAccentPickerPref != null) {
             if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
-                if (mContext.getResources().getBoolean(
+                if (!mContext.getResources().getBoolean(
                     com.android.internal.R.bool.config_supportSystemUIThemes)) {
                     mAccentPickerPref.setSummary(mContext.getString(
                             com.android.settings.R.string.system_themes_unsupported_title));

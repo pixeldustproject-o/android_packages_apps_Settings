@@ -63,7 +63,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
         super.displayPreference(screen);
         mSystemUiThemeStyle = (ListPreference) screen.findPreference(SYSTEM_UI_THEME);
         if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
-            if (mContext.getResources().getBoolean(
+            if (!mContext.getResources().getBoolean(
                     com.android.internal.R.bool.config_supportSystemUIThemes)) {
                 mSystemUiThemeStyle.setEnabled(false);
                 mSystemUiThemeStyle.setSummary(R.string.system_themes_unsupported_title);
