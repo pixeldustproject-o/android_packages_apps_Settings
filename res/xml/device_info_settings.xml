@@ -27,7 +27,7 @@
              android:summary="@string/pdupdate_settings_summary">
              <intent android:action="android.intent.action.MAIN"
                  android:targetPackage="com.pixeldust.ota"
-                 android:targetClass="com.pixeldust.ota.activities.MainActivity" />
+                 android:targetClass="com.pixeldust.ota.MainActivity" />
          </Preference>
 
         <!-- Changelog -->
