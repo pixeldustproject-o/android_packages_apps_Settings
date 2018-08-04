@@ -314,4 +314,11 @@
   <string name="advanced">Erweitert</string>
   <string name="profiles_add">Hinzufügen</string>
   <string name="profile_choose_app">Anwendung auswählen</string>
+
+  <!-- Ambient Play -->
+  <string name="ambient_play_cat">Now Playing</string>
+  <string name="ambient_recognition_title">Now Playing aktivieren</string>
+  <string name="ambient_recognition_summary">Musik, die im Hintergrund gespielt wird, wird erkannt und Titel sowie Künstler auf dem Inaktivitätsdisplay angezeigt. Hierdurch erhöht sich die Akku- und Datennutzung.</string>
+  <string name="ambient_recognition_lockscreen_title">Now Playing zusätzlich anzeigen</string>
+  <string name="ambient_recognition_lockscreen_summary">Auf dem Sperrbildschirm</string>
 </resources>

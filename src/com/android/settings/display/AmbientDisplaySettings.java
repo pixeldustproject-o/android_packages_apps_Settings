@@ -22,6 +22,8 @@ import android.provider.SearchIndexableResource;
 
 import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.settings.pixeldust.doze.AmbientPlayPreferenceController;
+import com.android.settings.pixeldust.doze.AmbientPlayKeyguardPreferenceController;
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.MetricsFeatureProvider;
 import com.android.settings.dashboard.DashboardFragment;
@@ -61,6 +63,8 @@ public class AmbientDisplaySettings extends DashboardFragment {
                 MY_USER_ID, KEY_AMBIENT_DISPLAY_DOUBLE_TAP));
         controllers.add(new PickupGesturePreferenceController(context, lifecycle, config,
                 MY_USER_ID, KEY_AMBIENT_DISPLAY_PICK_UP));
+        controllers.add(new AmbientPlayPreferenceController(context));
+        controllers.add(new AmbientPlayKeyguardPreferenceController(context));
         return controllers;
     }
 
